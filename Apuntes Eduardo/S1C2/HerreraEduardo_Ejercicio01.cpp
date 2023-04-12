@@ -10,7 +10,7 @@ class Triangle {
             b = 1;
             c = 1;
         }
-
+    
         Triangle(float a_param, float b_param, float c_param) {
             a = a_param;
             b = b_param;
