@@ -6,7 +6,7 @@ using namespace std;
 
 template <typename T1, typename T2>
 bool fight(T1& luchador1, T2& luchador2) {
-
+    // luchador1 y luchador2 deben estar vivos
     do {      
         if (luchador1.is_alive()) {
 
@@ -34,7 +34,7 @@ bool fight(T1& luchador1, T2& luchador2) {
         }
     }
 
-    while (luchador1.is_alive() && luchador2.is_alive());
+    while (luchador1.is_alive() || luchador2.is_alive());
   
 }
 

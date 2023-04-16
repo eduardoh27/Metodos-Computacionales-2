@@ -1,5 +1,5 @@
 #ifndef WARRIOR_H
-#define WARRIO_H
+#define WARRIOR_H
 using namespace std;
 
 class Warrior {
