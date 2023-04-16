@@ -54,27 +54,6 @@ int main() {
     std::cin >> a_param >> b_param >> c_param;
     Triangle triangulito(a_param, b_param, c_param); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // output
 
     std::cout << triangulito.get_a() << " " << triangulito.get_b() << " " << triangulito.get_c() << "\n" ;
