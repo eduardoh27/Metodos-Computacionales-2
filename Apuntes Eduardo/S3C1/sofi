@@ -1,0 +1,3 @@
+if ( time == 8am ){
+    sofia.enviar("Buenos días, princesa");
+}
